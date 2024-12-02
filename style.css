@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Young Serif", serif;
+  font-style: normal;
+}
+.header {
+  margin-left: 400px;
+  width: 704px;
+}
+
+.imagem1 {
+  width: 700px;
+  border: 0px solid white;
+  border-radius: 5px;
+  margin: 20px 0px 40px 0px;
+}
+
+p,
+li,
+th {
+  color: hsl(30, 10%, 34%);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: hsl(24, 5%, 18%);
+  font-weight: 400;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: hsl(332, 51%, 32%);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+strong {
+  color: hsl(24, 5%, 18%);
+}
+
+.listas {
+  margin: 40px 0px 0px 432px;
+}
+li {
+  margin: 10px 0px 0px 20px;
+}
+
+h3 {
+  font-size: 27px;
+  color: brown;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.ingredientes {
+  margin-top: 60px;
+}
+hr {
+  margin: 40px 0px 40px 0px;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  color: hsl(30, 10%, 34%);
+}
+.marrom {
+  color: brown;
+}
+
+table {
+  margin-top: 20px;
+  width: 700px;
+}
+
+ol{
+  list-style-type: decimal;
+  
+}
+
+ol li::marker{
+  color: brown;
+  font-weight: bold;
+  font-size: 20px;
+}
